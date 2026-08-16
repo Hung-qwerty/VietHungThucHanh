@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Quản lý Tài khoản - Cổng Thông Tin</title>
+    <title>Quản lý Tài khoản</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -76,14 +76,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container" style="max-width: 900px;">
         
         <div class="card card-custom p-4 mb-4">
-            <h3 class="text-white mb-1">HỆ THỐNG QUẢN LÝ PHÒNG THỰC HÀNH</h3>
-            <p class="text-muted mb-0">Cổng thông tin quản lý và phân quyền tài khoản (Bài tập cá nhân - TV1)</p>
+            <h3 class="mb-1" style="color: var(--hnmu-blue);">HỆ THỐNG QUẢN LÝ PHÒNG THỰC HÀNH</h3>
+            <p class="text-dark">Cổng quản lý và phân quyền tài khoản (Bài tập cá nhân - TV1)</p>
         </div>
 
         <?php echo $message; ?>
 
         <div class="card card-custom p-4 mb-4">
-            <h5 class="text-white mb-3">Thêm mới tài khoản người dùng</h5>
+            <h5 class="text-dark">Thêm mới tài khoản người dùng</h5>
             <form method="POST" class="row g-3">
                 <div class="col-md-4">
                     <label class="form-label text-muted small">Tên đăng nhập</label>
@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
 
         <div class="card card-custom p-4">
-            <h5 class="text-white mb-3">Danh sách tài khoản trong hệ thống</h5>
+            <h5 class="text-dark">Danh sách tài khoản trong hệ thống</h5>
             <div class="table-responsive">
                 <table class="table table-dark-custom align-middle">
                     <thead>
